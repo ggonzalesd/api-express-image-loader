@@ -1,0 +1,9 @@
+# GET IMAGE
+GET http://localhost:3000/img/load/wallpaper
+
+
+### UPLOAD AN IMAGE
+POST http://localhost:3000/img/save/wallpaper
+Content-Type: image/jpeg
+
+< /home/poggers/wallpaper.jpg
